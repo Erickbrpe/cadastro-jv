@@ -1,5 +1,5 @@
 <button onclick ="informacao()">clique aqui</button>
-  <script>
+  
   function informacao() {
 
     let nome= prompt("digite seu nome:");
@@ -19,4 +19,3 @@
 
     alert("cadastro finalizado com sucesso!");
   }
-  </script>
