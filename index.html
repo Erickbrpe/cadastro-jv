@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
@@ -6,28 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <h2> primeiro contato js</h2>
-    <button onclick ="informacao()">clique aqui</button>
-  <script>
+    <h2>primeiro contato js</h2>
+    <button onclick="informacao()">clique aqui</button>
+
+<script>
   function informacao() {
+     let nome = prompt("Digite seu nome:");
+     alert("Bem-vindo, " + nome + "!");
 
-    let nome= prompt("digite seu nome:");
-    alert("Bem-vindo,"+ nome + "!");
+     let idade = prompt("Digite sua idade:");
+     alert("Você tem " + idade + " anos.");
 
-    let idade= prompt("digite sua idade:");
-    alert("você tem " + idade + " anos.");
+     let curso = prompt("Digite seu curso:");
+     alert("Seu curso é " + curso + ".");
 
-    let curso= prompt("digite seu curso:");
-    alert("seu curso é "+ curso + " ".");
+     let cidade = prompt("Digite sua cidade:");
+     alert("Você mora em " + cidade + ".");
 
-    let curso= prompt("digite sua cidade:");
-    alert("você mora em " + cidade + ".");
+     let hobby = prompt("Digite seu hobby favorito:");
+     alert("Seu hobby favorito é " + hobby + ".");
 
-    let hobby = prompt("digite seu hobby favorito:");
-    alert("seu hobby favorito é " + hobby + ".");
-
-    alert("cadastro finalizado com sucesso!");
+     alert("Cadastro finalizado com sucesso!");
   }
-  </script>   
+</script>   
 </body>
 </html>
